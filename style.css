@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: url(./img/bakgrunn.jpg) no-repeat center center/cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 5rem;
+}
+
+#navbar .logo {
+  color: #fff;
+  font-size: 2.7rem;
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+#navbar ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 2rem;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+
+
+#clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+#clock {
+  font-size: 6rem;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  backdrop-filter: blur(6px);
+  background: hsla(0, 0%, 100%, 0.1%);
+  width: 100%;
+  padding: 1.2rem 0;
+}
